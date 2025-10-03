@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f8fafc;
+}
+​ .navbar {
+  background-color: #ffffff;
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-container {
+  display: flex;
+
+  justify-content: space-evenly;
+  align-items: center;
+  width: 1440;
+  height: 96;
+  justify-content: space-between;
+  opacity: 1;
+  padding-top: 24px;
+  padding-right: 80px;
+  padding-bottom: 24px;
+  padding-left: 80px;
+}
+
+.nav-logo {
+  width: 103;
+  height: 35;
+  gap: 2px;
+
+  opacity: 1;
+}
+.nav-left {
+  display: flex;
+  width: 666.0000610351562;
+  height: 48;
+  gap: 48px;
+
+  opacity: 1;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #374151;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.dropdown-arrow {
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.btn-login {
+  background: none;
+  border: none;
+
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.btn-signup {
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  background-color: white;
+  cursor: pointer;
+
+  width: 153;
+  height: 48;
+  padding: 12px;
+
+  border-radius: 8px;
+  border-width: 2px;
+
+  border: 2px solid #0f172a;
+}
+
+.nav-item {
+  width: 85;
+  height: 48;
+  gap: 8px;
+
+  opacity: 1;
+  padding-top: 12px;
+  padding-right: 8px;
+  padding-bottom: 12px;
+  padding-left: 8px;
+
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.section {
+  width: 1440;
+  height: 704.5323486328125;
+  padding: 80px;
+  gap: 80px;
+}
+
+.col {
+  width: 575.396240234375;
+  height: 524;
+  gap: 80px;
+
+  opacity: 1;
+}
+
+.sec-top {
+  width: 575.396240234375;
+  height: 158;
+  gap: 8px;
+
+  opacity: 1;
+}
+
+.main-head {
+  width: 575.396240234375;
+  height: 158;
+  gap: 8px;
+
+  opacity: 1;
+}
+
+.container {
+  width: 45%;
+  height: 524;
+  gap: 80px;
+}
+.container2 {
+  width: 45%;
+  height: 524;
+  gap: 80px;
+  text-align: center;
+}
+.main-container {
+  height: 704;
+  padding: 80px;
+  gap: 80px;
+
+  opacity: 1;
+
+  display: flex;
+}
+
+.card-title {
+  font-family: Roboto;
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 72px;
+  line-height: 110.00000000000001%;
+  letter-spacing: 0%;
+}
+
+.con-h1 {
+  width: 575.396240234375;
+  height: 158;
+  gap: 8px;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 72px;
+
+  line-height: 110.00000000000001%;
+  letter-spacing: 0%;
+}
+
+.con-p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+
+  line-height: 160%;
+  letter-spacing: 0%;
+
+  width: 575.396240234375;
+  height: 114;
+
+  opacity: 1;
+}
+
+.con-1-buttons {
+  width: 449;
+  height: 64;
+  margin-top: 50px;
+  margin-right: 20px;
+  opacity: 1;
+}
+.con-1-buttons-1 {
+  width: 239px;
+  height: 64px;
+  background: #ea580c;
+
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+}
+.con-1-buttons-2 {
+  width: 239px;
+  height: 64px;
+
+  background-color: white;
+
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+
+  gap: 40px;
+}
+.press {
+  margin-top: 50px;
+  width: 575px;
+  height: 44px;
+  gap: 48px;
+}
+
+.sec-con-h1 {
+  width: 1280px;
+  height: 62px;
+  gap: 8px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 50px;
+}
+
+.con-p2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 1280px;
+  height: 77px;
+  font-family: Roboto;
+  font-weight: 400;
+
+  font-size: 20px;
+}
